@@ -1,42 +1,54 @@
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 50px 25px;
 }
 
 a {
-    color: #2a99b6;
+    color: rgb(77, 71, 71);
 }
 
 a:hover {
-    color: #33bbdf;
+    color: #054A3B ;
 }
 
-header, footer, div.page {
-    width: 760px;
+
+
+header,  div.page {
+    /* width: 760px; */
     margin: 0 auto;
-    background: #daeef3;
+    background: #C4CACE;
     padding: 20px 30px;
 }
 
 header h1 {
-    color: #169bbd;
-    margin: 0;
+    text-align: center;
+    margin: 0; 
     font-weight: normal;
-    font-size: 42px;
+    font-size: 24px; 
 }
 
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+nav {
+    background-color: #020202;
+    overflow: hidden;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
 }
 
 div.page {
-    background: #f1fbfe;
+    background: #918d8d;
 }
+
+figure {
+    background: #5f6a72; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 150px; /* Ширина */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+   }
+

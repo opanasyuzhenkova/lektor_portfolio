@@ -1,75 +1,174 @@
+
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../static/style.css">
-<title>Blog — Portfolio</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+<div class="box" style="background-color:rgb(226, 222, 222)">
+  
 <body>
-  <header>
-    <h1>Portfolio</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../">Welcome</a></li>
+    <header>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://www.herzen.spb.ru/">
+                  <img src="https://img.icons8.com/ultraviolet/344/bright-moon.png" >
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+              </div>
+              <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class = "navbar-item" href="../">Обо мне</a>
+                      
+
+                      <a class ="navbar-item" href="./">Портфолио (2 курс)</a>
+                      
+
+                      <a class ="navbar-item" href="../projects/">Проекты</a>
+                      
+                    
+                      
+
+                      
+                      
+
+                </div>
+            </div>
         
-          <li class="active"><a href="./">Blog</a></li>
-        
-          <li><a href="../projects/">Projects</a></li>
-        
-          <li><a href="../about/">About</a></li>
-        
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
+        </nav>
+    </header>
+    <div class="content" >
+          <p>
   
     
   <div class="blog-post">
   
-    <h2><a href="first-post/">Hello Website</a></h2>
+    <h2><a href="analiz-dannyh-4-semestr/">Анализ данных (4 семестр)</a></h2>
   
+
+
   <p class="meta">
-    written by
-    
-      Olya Panasyuzhenkova
-    
-    on 2022-03-22
+    опубликовано 2022-04-10
   </p>
-  <p>This is an example blog post.  Not much here but that's not the point :)</p>
+ 
+  <p><strong>Темы дисциплины</strong>:  Проверка статистических гипотез, Корреляционный анализ, Регрессионный анализ, Анализ временных рядов, Дисперсионный анализ</p>
+ 
+
+  <p class = "tags" style="margin-bottom: 10px;">
+    Теги:&nbsp;  
+    <i> анализ данных &nbsp; </i>
+    
+  </p>
 
   </div>
+
 
   
     
   <div class="blog-post">
   
-    <h2><a href="test-page/">Test Page</a></h2>
+    <h2><a href="bazy-dannyh/">Базы данных (4 семестр)</a></h2>
   
+
+
   <p class="meta">
-    written by
-    
-      Olya P.
-    
-    on 
+    опубликовано 2022-04-10
   </p>
-  <p>Test page!</p>
+ 
+  <p><strong>Темы дисциплины</strong>: Обобщенная архитектура систем баз данных, Этапы проектирования БД. Модели данных, Реляционная модель данных, Нормализация реляционных баз данных</p>
+ 
+
+  <p class = "tags" style="margin-bottom: 10px;">
+    Теги:&nbsp;  
+    <i> базы данных &nbsp; </i>
+    
+  </p>
 
   </div>
+
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="prog-3sem/">Программирование (Python, 3 семестр)</a></h2>
+  
+
+
+  <p class="meta">
+    опубликовано 2022-04-04
+  </p>
+ 
+  <p><strong>Темы дисциплины</strong>: Введение и основы синтаксиса, Функции, Строки, Файлы, Тестирование и обработка исключений</p>
+ 
+
+  <p class = "tags" style="margin-bottom: 10px;">
+    Теги:&nbsp;  
+    <i> программирование &nbsp; </i>
+    
+    <i> python &nbsp; </i>
+    
+  </p>
+
+  </div>
+
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="prog-4sem/">Программирование (Python, 4 семестр)</a></h2>
+  
+
+
+  <p class="meta">
+    опубликовано 2022-03-22
+  </p>
+ 
+  <p><strong>Темы дисциплины</strong>: Встроенные коллекции, Обработка исключений</p>
+ 
+
+  <p class = "tags" style="margin-bottom: 10px;">
+    Теги:&nbsp;  
+    <i> программирование &nbsp; </i>
+    
+    <i> python &nbsp; </i>
+    
+  </p>
+
+  </div>
+
 
   
 
-  
-  <div class="pagination">
-    
-      <span class="disabled">&laquo; Previous</span>
-    
-    | 1 |
-    
-      <span class="disabled">Next &raquo;</span>
-    
-  </div>
+ </p></div>
+
+          
+     
+   
+          <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Previous</a>
+            <a class="pagination-next">Next page</a>
+            <ul class="pagination-list">
+              <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+              <li><a class="pagination-link" aria-label="Goto page 45">2</a></li>
+              <li><a class="pagination-link" aria-label="Goto page 47">3</a></li>
+              <li><span class="pagination-ellipsis">&hellip;</span></li>
+              <li><a class="pagination-link" aria-label="Goto page 86">4</a></li>
+            </ul>
+          </nav>
 
 
-  </div>
-  <footer>
-    &copy; Copyright 2022 by Olya Panasyuzhenkova.
-  </footer>
+ <footer>
+  <div class="content has-text-centered" style = "color: black; background-color: rgb(196, 196, 196); margin-top: 20px; padding:10px ">   
+     <strong>Сайт-портфолио</strong> by Olya Panasyuzhenkova<p>2022</p></a>
+          
+ </div>
+ </footer> 
 </body>
+
+</div>
+
