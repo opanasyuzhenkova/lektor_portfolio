@@ -32,11 +32,6 @@ nav {
     overflow: hidden;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 8px 0 0;
-    padding: 0;
-}
 
 div.page {
     background: #918d8d;
@@ -51,4 +46,3 @@ figure {
     margin: 0 10px 10px 0; /* Отступы */
     text-align: center; /* Выравнивание по центру */
    }
-
