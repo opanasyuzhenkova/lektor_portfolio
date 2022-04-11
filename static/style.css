@@ -11,8 +11,6 @@ a:hover {
     color: #054A3B ;
 }
 
-
-
 header,  div.page {
     /* width: 760px; */
     margin: 0 auto;
@@ -31,7 +29,6 @@ nav {
     background-color: #020202;
     overflow: hidden;
 }
-
 
 div.page {
     background: #918d8d;
